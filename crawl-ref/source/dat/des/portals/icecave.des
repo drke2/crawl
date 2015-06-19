@@ -208,7 +208,7 @@ end
 -- : ice_cave_caverns_natural_giant_loot(_G)
 function ice_cave_caverns_natural_giant_loot(e)
   ice_cave_item_attributes(e)
-  e.item("animal skin " .. goodcoldres .. " / \
+  e.item("robe " .. goodcoldres .. " / \
           battleaxe " .. goodfreezeweap .. " w:4 / \
           glaive " .. goodfreezeweap .. " w:4 / \
           great sword " .. goodfreezeweap .. " w:2 / nothing")
@@ -511,7 +511,7 @@ ITEM:    great mace good_item / battleaxe good_item / glaive good_item / \
 :   " / nothing w:80")
 : item("hat " .. coldres .. " / cloak " .. coldres ..
 :   " / shield " .. coldres ..  " / large shield " .. coldres ..
-:   " / animal skin " .. coldres .. " / nothing w:60")
+:   " / robe " .. coldres .. " / nothing w:60")
 ITEM:    potion of resistance w:5 / potion of beneficial mutation q:1 w:5 / \
          potion of might / potion of flight / \
          potion of heal wounds w:5 / any potion w:1
