@@ -176,7 +176,7 @@ function make_fiery_weapon (e, weapon)
 end
 
 function setup_loot (e)
-    e.item(make_fiery_armour(e,  {"robe w:30", "animal skin w:30", "leather armour w:30",
+    e.item(make_fiery_armour(e,  {"robe w:60", "leather armour w:30",
                                   "ring mail w:30", "scale mail w:20", "chain mail w:40",
                                   "plate armour w:10", "pair of gloves w:5",
                                   "helmet w:6", "pair of boots w:3", "hat w:4",
